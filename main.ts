@@ -14,8 +14,7 @@ function 移动 (dx: number, dy: number) {
         y = 5
     }
     if (sprite.get(LedSpriteProperty.X) == sprite2.get(LedSpriteProperty.X) && sprite.get(LedSpriteProperty.Y) == sprite2.get(LedSpriteProperty.Y)) {
-        x2 = x
-        y2 = y
+    	
     } else {
         sprite2.set(LedSpriteProperty.X, x2)
         sprite2.set(LedSpriteProperty.Y, y2)
