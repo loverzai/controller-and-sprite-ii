@@ -1,0 +1,10 @@
+def on_forever():
+    basic.show_icon(IconNames.HEART)
+    basic.pause(100)
+    basic.clear_screen()
+    basic.pause(200)
+    basic.show_icon(IconNames.SMALL_HEART)
+    basic.pause(100)
+    basic.clear_screen()
+    basic.pause(200)
+basic.forever(on_forever)
